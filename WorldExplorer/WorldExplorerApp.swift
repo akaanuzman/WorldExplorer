@@ -13,8 +13,20 @@ struct WorldExplorerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabView{
+                ContentView().tabItem {
+                    HStack{
+                        Image(systemName: "thermometer")
+                        Text("Conversion")
+                    }
+                }
+                MapView().tabItem{
+                    HStack{
+                        Image(systemName: "map")
+                        Text("Map")
+                    }
+                }
+            }
         }
     }
 }

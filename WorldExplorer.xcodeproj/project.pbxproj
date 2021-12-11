@@ -16,6 +16,7 @@
 		004D777527640173006B0221 /* WorldExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D777427640173006B0221 /* WorldExplorerTests.swift */; };
 		004D777F27640173006B0221 /* WorldExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D777E27640173006B0221 /* WorldExplorerUITests.swift */; };
 		004D778127640173006B0221 /* WorldExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004D778027640173006B0221 /* WorldExplorerUITestsLaunchTests.swift */; };
+		00FDA7D727656048001855ED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FDA7D627656048001855ED /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		004D777A27640173006B0221 /* WorldExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004D777E27640173006B0221 /* WorldExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldExplorerUITests.swift; sourceTree = "<group>"; };
 		004D778027640173006B0221 /* WorldExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00FDA7D627656048001855ED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				004D776727640173006B0221 /* Persistence.swift */,
 				004D776927640173006B0221 /* WorldExplorer.xcdatamodeld */,
 				004D776427640173006B0221 /* Preview Content */,
+				00FDA7D627656048001855ED /* MapView.swift */,
 			);
 			path = WorldExplorer;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				004D776827640173006B0221 /* Persistence.swift in Sources */,
 				004D776127640173006B0221 /* ContentView.swift in Sources */,
+				00FDA7D727656048001855ED /* MapView.swift in Sources */,
 				004D775F27640173006B0221 /* WorldExplorerApp.swift in Sources */,
 				004D776B27640173006B0221 /* WorldExplorer.xcdatamodeld in Sources */,
 			);
