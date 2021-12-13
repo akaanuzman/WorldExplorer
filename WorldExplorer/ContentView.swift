@@ -21,11 +21,11 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            TextField("Enter fahreint", text: $fahrenheitValue).font(Font.system(size: 32.0)).multilineTextAlignment(.center).keyboardType(.decimalPad)
-            Text("fahrenheit")
-            Text("is actually").foregroundColor(.gray)
+            TextField("CONVERSION_TEXT_FIELD_PLACEHOLDER", text: $fahrenheitValue).font(Font.system(size: 32.0)).multilineTextAlignment(.center).keyboardType(.decimalPad)
+            Text("CONVERSION_FAHRENHEIT")
+            Text("CONVERSION_IS_ACTUALLY").foregroundColor(.gray)
             Text(convertToCelcius()).font(Font.system(size: 32.0))
-            Text("degrees Celcius")
+            Text("CONVERSION_DEGREES_CELCIUS")
             Spacer()
         }.font(.title).foregroundColor(.blue).padding()
     }
